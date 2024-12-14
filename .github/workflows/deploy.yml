@@ -42,12 +42,12 @@ jobs:
       - name: Build
         run: |
           yarn install
-          yarn build
+          yarn build:frontend
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "dist/spa"
+          path: "dist"
 
   deploy:
     environment:
