@@ -76,7 +76,7 @@ module.exports = configure(function (/* ctx */) {
           },
           { server: false },
         ],
-        [viteSingleFile, {}],
+        // [viteSingleFile, {}],
       ],
     },
 
